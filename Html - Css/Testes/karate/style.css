@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+body{
+    background-color: white;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: rgb(244, 60, 84);
+    padding-bottom: 20px;
+    padding-top: 0px;
+    text-align: justify;
+}
+
+header > img{
+   padding-left: 40px;
+   height: 150px;
+   width: 150px ;
+}
+
+header > h1{
+    margin-top: 0px;
+    text-align: center;
+}
+
+header >p{
+    text-indent: 10px;
+}
+nav > a{
+   padding-left: 10px;
+   background-color: cyan;
+   text-decoration: none;
+}
+main{
+    background-color: blue;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+blockquote{
+    background-color: yellow;
+    padding: 10px;
+}
+
+article{
+    background-color: green;
+    padding-top:5px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+footer{
+    background-color: purple;
+}
+

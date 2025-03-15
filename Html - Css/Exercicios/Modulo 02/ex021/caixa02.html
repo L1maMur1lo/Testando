@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: rgb(66, 66, 66);
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background: gray;
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.571);
+            /*Ordem das sombras: Horizontal, Vertical, Espalhamento */
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: rgb(4, 4, 126);
+        }
+
+        a:active{
+            color:blue;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.4);
+        }
+
+        article{
+            background-color: rgb(192, 190, 190);
+            border-radius: 2px;
+           
+        }
+
+        article >p{
+            padding-left: 10px;
+        }
+
+        article >h2{
+            padding-left: 20px;
+            padding-top: 5px;
+        }
+
+        article > aside{
+            background-color: rgb(78, 76, 76);
+        }
+
+        aside > p{
+            padding: 2px;
+            padding-left: 10px;
+        }
+        
+        footer{
+            background-color: black;
+            color: white;
+            text-align: right;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer >p{
+            margin:0px;
+        }
+
+        #bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        #bola > p{
+            text-align: center;
+            padding: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main> 
+        <section id="assuntos">
+            <p>Esportes e Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notivias sobre o BRASIL</h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati sunt officia tempore ratione rerum harum. Ipsum accusantium quasi totam soluta dolore, nostrum, corporis rem sit distinctio dignissimos amet. Quidem, illum.</p>
+                <aside>
+                    <p>Artigo escrito by Peterson</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Peterson</p>
+    </footer>
+    <div id="bola">
+        <p>teste bola</p>
+    </div>
+</body>
+</html>

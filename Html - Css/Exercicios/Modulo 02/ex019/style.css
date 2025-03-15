@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Gloria+Hallelujah&family=Sigmar+One&display=swap');
+/*
+    em HTML é id = em CSS é #
+    em HTML é class = em CSS é .
+*/
+ 
+body{
+    background-color: #74a3f5;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+     font-style: normal;;
+}
+
+h1{
+    color: #000000;
+}
+
+h1#principal{
+    text-align: center;
+    background-color: #325289;
+    color: white;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px rgb(43, 43, 250);
+    font-family:"Sigmar One", sans-serif;
+    font-weight: 400;
+    font-style: normal;;
+}
+
+h2{
+    color:#15294b;
+}
+
+.titulo{
+    background-color: rgb(171, 95, 241);
+    padding:2px;
+    border-radius: 9px;
+    width: 300px;
+    height: 60px;
+    text-indent: 10px;
+}
+
+.basico{
+    color:green
+}
+
+.intermediario{
+    color: yellow;
+}
+
+.avançado{
+    color: red;
+}

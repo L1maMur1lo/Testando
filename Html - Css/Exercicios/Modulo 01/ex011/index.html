@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <h1>Imagem Dinamicas</h1>
+    <p>tenta abrir em disp diferentes ou aumenta e diminui o tamanho da navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+
+        <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
+        
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <hr>
+    <h1>Reproduzir audio</h1>
+    <p>assim que coloca audio em html5</p>
+    <p>obs: alugns navegadores não funcionam só com o MP3, ou seja devemos baixar o audios em outros formatamos como  MP3, WAV, OGG</p>
+    <audio preload="metadata" autoplay controls loop> <!-- deixar sempre no metadata -->
+        <source src="midia/levantase.mpeg" type="audio/mpeg">
+        <source src="midia/levantase.ogg" type="audio/ogg">
+        <source src="midia/levantase.wav" type="audio/wav">
+        <p>infelizmente seu nav ñ consegue reproduzir audio <a href="midia/levantase.mpeg">clique aqui para baixar o audio</a></p>
+        <a href="midia/levantase.mpeg">clique aqui pra baixar o arquivo</a>
+        <!--O navegador vai tentar a 1° linha, caso de errado vai pra segunda e assim em diante evitar o arq wav que é muito pesado -->
+    </audio>
+    
+    <h3>Outro jeito de por audio mais simples</h3>
+    <pre>
+        <audio src="midia/levantase.mpeg" controls autoplay></audio>
+    </pre> 
+</body>
+</html>
